@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Formulário</h1>
+
+    <p>A tag "form" - Define o formulário;</p>
+    <p>A tag "label" - Define a legenda, texto que antecede a caixa do foumulário;</p>
+    <p>A tag "input" - Define a caixa de texto do formulário;</p>
+    <p>A tag "selec" - Define uma caixa de multipla escolha;</p>
+    <p>A tag "option" - Define as opções que irão aparecer no select;</p>
+    <p>A tag "textarea" - Uma caixa de texto maior, para digitar textos mais longos;</p>
+    <p>A tag "button" - Define a criação de um botão;</p>
+    <p>Atributo "id" - Define o idenficador;</p>
+    <p>Atributo "for" - Relaciona o atributo for ao campo de input através do ID;</p>
+    <p>Atributo "type" - Define o tipo do input(caixa de texto do formlário);</p>
+    <p>Atributo "placeholder" - Define o texto marca d'agua dentro da cx de resposta;</p>
+    <p>Atributo "name" - Define ;</p>
+    <p>Atributo "value" - Define a informação que será enviada junto com a resposta do usuário;</p>
+    <p>Atributo "cols" - Define a quantidade de colunas do textarea;</p>
+    <p>Atributo "rows" - Define a quantidade de linhas do textarea;</p>
+    <p>Atributo "required" - Torna o preenchimento do campo obrigatório;</p>
+
+    <h3>Temos vários tipos de input, abaixo irei listar os principais:</h3>
+    <ul>
+        <li>Valor do atributo "type" - text - Digitar um texto, como nome ou sobrenome;</li>
+        <li>Valor do atributo "type" - email - Digitar o e-mail;</li>
+        <li>Valor do atributo "type" - password - Digitar a senha;</li>
+        <li>Valor do atributo "type" - radio - Criar uma lista de escolha única;</li>
+        <li>Valor do atributo "type" - checkbox - Criar uma lista de multipla escolha;</li>
+        <li>Valor do atributo "type" - submit - Botão de enviar formulário;</li>
+    </ul>
+    
+    <h2>Abaixo temos um exemplo de formulário utilizando todas as tags mencionadas acima:</h2>
+
+    <form action="">
+
+        <label for="campo_nome">Nome: </label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui"><br><br>
+
+        <label for="campo_sobrenome">Sobrenome: </label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui"><br>
+
+        <p>Gênero</p>
+
+        <select name="sexo" id="">
+            <option selected disabled value="feminino">sexo</option>
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+            <option value="outros">Outro</option>
+        </select><br><br>
+
+        <label for="campo_email">E-mail: </label>
+        <input id="campo_email" type="email" placeholder="Digite seu e-mail aqui"><br>
+
+        <p>Selecione abaixo em qual area da programação você possui maior interesse:</p>
+        
+        <input type="radio" id="frontend" name="area_interesse" value="Front-end">
+        <label for="frontend">Front-end</label><br>
+
+        <input type="radio" id="backend" name="area_interesse" value="Back-end">
+        <label for="backend">Back-end</label><br>
+
+        <input type="radio" id="fullstack" name="area_interesse" value="Full Stack">
+        <label for="fullstack">Full Stack</label><br>
+        
+        <p>Selecione abaixo as linguagens de seu conhecimento:</p>
+
+        <input type="checkbox" id="html" name="item1" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="item2" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="item3" value="JAVASCRIPT">
+        <label for="javascript">JAVASCRIPT</label><br> 
+
+        <input type="checkbox" id="php" name="item4" value="PHP">
+        <label for="php">PHP</label><br> 
+
+        <input type="checkbox" id="python" name="item5" value="PYTHON">
+        <label for="python">PYTHON</label><br>
+
+        <p>Digite aqui uma breve aprsentação sobre você:</p>
+        <textarea name="mensagem" placeholder="Digite aqui a sua mensagem" id="campo_mensagem" cols="60" rows="10"></textarea><br><br>
+       
+        <label for="campo_senha">Senha: </label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui"><br><br>
+
+        <input type="submit" value="Enviar formulário">
+
+    </form>
+
+    <h3>Abaixo temos as imagens do código do. formulário acima</h3>
+    <img src="img/formulario1.jpeg" alt=""><br>
+    <img src="img/formulario2.jpeg" alt="">
+
+    <br><br>
+    
+    <a href="index.html"> <button>Voltar a página inicial</button></a>
+  
+</body>
+</html>

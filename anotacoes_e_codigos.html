@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--usamos o lang para definir em qual idioma está o site, se colocar "en" que é inglês, vai aparecer aquela aba para traduzir o site. Usamos o "pt-br" para colocar no português do Brasil -->
+
+<head> 
+    <meta charset="UTF-8"><!--Usamos essa meta tag quando queremos que o nosso site fique de acordo com os padróes da lingua portuguesa, para não termos problemas com acentos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Essa tag serve para deixar o meu documento compativel com versões mais antigas do internet explore, para que não haja distorção nas informações ou imagens do site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--usando essa meta tag, eu estou dizendo que os elementos do meu site vão ficar proporcionais as telas que estiverem sendo vistos-->
+    <meta name="description" content="Esse é o meu primeiro site"><!--utilizamos essa meta tag para colocarmos um texto que fica aparecendo com enviamos o link do nosso site-->
+    <meta name="keywords" content="programacao,html,javascript"><!--usamos essa meta tag para adcionarmos palavras chaves, elas dão uma ideia para os mecanismos de buscas sobre o que é o seu site, e ajuda no ranqueamento do site no Google-->
+    <meta name="author" content="Ana Paula Lunkes"><!--é interresante colocar o autor da página para o Google -->
+    <title>Document</title>
+<head>   
+
+<body>
+    <h1>My first do</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, <b>adipisicing</b> <!--usamos o "<b>" para deixar uma parte do texto em negrito-->elit. Exercitationem eum voluptate harum sequi ipsam officia mollitia maxime eius pariatur excepturi consequuntur ex voluptates ad nulla iusto delectus, <strong>dolores ullam quam?</strong><!--usamos a tag "strong" para dar enfase ao texto, ela vai deixar o texto negrito igual a tag "b" a diferença é que a tag strong tem o objetivo de dar enfase a um texto(o Google consegue entender que aquele texto precisa de uma enfase) e a b tem somente o objetivo de deixar negrito. O--></p>
+
+    
+    <h2> Passo 1 </h2>
+    <p>Ana Paula Lunkes<br>
+        <small>anapaulalunkes@gmail.com</small>
+    </p>
+
+        <p><i>Lorem ipsum dolor sit</i><!--usamos a tag <i> para deixar um texto italico--> amet consectetur adipisicing elit. Illo quasi rerum est earum eaque possimus ea molestiae veritatis, <u>temporibus obcaecati </u><!--usamos a tag <u> para underline-->doloribus asperiores autem doloremque magni quos? Debitis nulla soluta enim!
+        </p>
+
+    <p>Cuso de <small>programação</small><!--a tag small serve para colocar uma parte do texto um pouco menor em relação ao resto--></p>
+    <hr> <!--é usada quando quisermos separar um texto de outro por uma linha -->
+
+    <br><!--tem a função de quebra de linha, normalmente não é feito no html, geralmente é feito no css na manipulação de margem-->
+
+    <b>De <del>R$ 497,00</del> por R$ 300,00</b><!--usamos a tad del quando queremos ricar uma palavra, como se estivessemos corrigindo ela-->
+
+    <p>o número é 2 <sup>10</sup></p><!--para utilizar numeros elevados a uma potencia, utilizamos a tag sup-->
+
+    <p>o número é 2 <sub>10</sub></p><!--se quisermos que o texto ou numero fique em baixo ao invés de em cima como na exponenciação, usamos o sub -->
+
+    <p>o número é 2 <mark>é pequeno</mark></p><!--usamos a tag mark quando queremos que o texto fique destacado, como um marca texto-->
+
+    <!--RESUMO DE TAGs
+    <b></b> - negrito
+    <strong></strong> - Negrito (enfâse)
+    <i></i> - italico
+    <u></u> - Sublinhado
+    <hr> - Linha de divisão
+    <br> - Pular uma linha(quebra de linha)
+    <small></small> - Deixa o texto pequeno
+    <del></del> - Riscado(deletado)
+    <sup></sup> - Superior(exponenciação)
+    <sub></sub> - inferior
+    <mark> - Marcação(destaca o texto)-->
+
+        
+    <h2>Elementos de citação</h2>    
+    <p>Estamos aprendendo <abbr title="Hyper text markup language">HTML</abbr></p><!--usamos essa tag quando queremos colocar uma explicação de uma abreviação ou palavra, que aparece quando passamos o cursor em cima-->
+
+    <p>Você conhece o inicio de um site <abbr title="World Wide Web">WWW</abbr></p>
+
+    <p>
+        <address><!--essa tag é usado quando colocamos um endereço, seja ele fisico ou virtual-->
+            Rua 20 de Setembro, 220, Industrial - Dois Irmãos
+        </address>
+    </p>
+
+    <p>O filme <cite>Titanic</cite><!--usamos a tag cite para indicar o titulo d euma obra como filme, livro, obra--> teve como autor principal o Leonardo de Caprio. Ele disse: <q>pq eu não posso subir nessa porta? cabe nós dois bem tranquilo</q></p><!--usamos a tag "q" quando queremos retratar uma fala de alguém, tem a função de já colocar o testo entre aspas-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae harum rem vitae cum similique nisi, hic facere obcaecati deserunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae harum rem vitae cum similique nisi, hic facere obcaecati deserunt!</p><blockquote>Ela com ceteza conseguiria ajudar o JackLorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae harum rem vitae cum similique nisi, hic facere obcaecati deserunt!</blockquote><!--quando que quero dar destaque a um trecho do texto-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae harum rem vitae cum similique nisi, hic facere obcaecati deserunt!</p>
+
+    <p><bdo dir="rtl">Ana Paula Lunkes</bdo></p><!--usamos a tag<bdo dir="rtl"></bdo> quando queremos que o texto fique de trás para frente-->
+
+    <!--LINKS DE SITES OU PASTAS-->
+
+    <a href="https://www.google.com/" target="_blank">Google</a><!--usamos o (target="_blank") quando queremos que o link seja aberto em outra pagina -->
+
+    <br>
+
+    <!--QUANDO VC QUER QUE SIGA O LINK DENTRO DO SEU PRÓPRIO DOCUMENTO-->
+    <a href="sobre.html">Sobre mim</a>
+
+    <br>
+
+    <a href="Aventuras/aventura1.html" target="meu-iframe">Minha primeira aventura</a><!--quando usamos caminhos de pastas para seguir e quisermos colocar um caminho de volta a páfina inicial, usamo "../" se quiser voltar duas pastas coloca-se o simbolo duas vezes. EX.: <a href="../index.html">Volte a página inicial</a>-->
+
+    <br>
+    <br>
+
+    <img src="img/WhatsApp Image 2022-08-29 at 09.09.52.jpeg" alt="Identidade da Ana com seus dados" width="300" height="100%"> <!--width é para mudar o tamanho da imagem em pixels-->
+    <!--usamos a tag (imd src="")  para inseir imagens, e a tag alt é utlizada para descrever as imagens, ela é utilizada por pessoas com deficiencia visual atrávez de um sintetizador de voz e serev também para os mecanismos de busca entenderem melhor as imagens que estão no meu site-->
+
+    <!--quando adcionamos imagens em sites é muito importante que as imagens tenham o minimo de peso possivel, em kb para fazer com que o site carregue mais rápido-->
+    <!--Podemos utilizar imagens em jpg, png, gif-->
+   
+    <a href="sobre.html"><img src="https://gifs.eco.br/wp-content/uploads/2022/07/gifs-de-ursinho-fofo-0.gif" width="200"></a>
+
+    <!--SITE DE ICONES flaticon-->
+    <!--Caminho absoluto de imagem = link do site da imagem
+    Caminho relativo = imagem salva no meu pc -->
+
+    <!--Podemos fazer o mapeamento de imagens, ex.: tem um caneta, um computador e 1 lapis, posso nomear os itens e linca-los para os seus sites de compras através do app img map generator-->
+
+        <h2>TABELAS</h2>
+
+        <table widht="100%" border="5"> 
+            <!--Caminho para fazer tabelas-->
+            <tr><!--1 linha da tabela-->
+                <th>Nome</th><!--coluna-->
+                <th>Idade</th>
+                <th>Altura</th>
+                <th>Peso</th>
+            </tr>
+            <tr>
+                <td>Ana </td><!--Dado da tabela-->
+                <td>34</td>
+                <td>1.75</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Ana </td>
+                <td>34</td>
+                <td>1.75</td>
+                <td>70</td>
+            </tr>
+        </table>
+
+        <!--LISTAS-->
+        <br>
+        <h2>Listas não ordenada</h2><!--fica a odem em pontinhos-->
+        <ul><!--lista-->
+            <li>Arroz</li><!--Item da lista-->
+            <li>Feijão</li>
+            <li>Feijão</li>
+            <li>Feijão</li>
+        </ul>
+
+        <h2>Lista ordenada</h2><!--fica a ondem em números-->
+        <ol>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Feijão</li>
+            <li>Feijão</li>
+        </ol>
+
+        <!--IFRAMES é uma página dentro de outra pagina-->
+
+        <Iframe src="sobre.html" width="100%" height="200" title=""></Iframe>
+
+        <br>
+        <br>
+
+        <Iframe src="https://www.franciscajoias.com.br
+        " width="100%" height="200" title=""></Iframe>
+
+        <iframe width="560" height="400" src="https://www.youtube.com/embed/nPEpaft1y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--para colocar videos do you tube na página, basta ir em compartilhar, incorporar e copiar o código que o tou tube jpa fornece  -->
+
+        <iframe src="" frameborder="0" name="meu-iframe" title="Iframe de Exemplo"></iframe>
+
+        <!--FORMULÁRIOS-->
+        <!--usamos quando queremos os dados das pessoas-->
+
+        <h1>Formulário</h1>
+
+        <form action=""><!--sempre começa com a tag form, de formlario, action (pra onde que vai a informação do formulário, geralmente um arquivo php) -->
+           
+            <!--LEGENDA PARA NOME-->
+            <label for="campo_nome">Nome: </label><!--é como se você uma "legenda do campo, o que escrito antes da caixinha do formulário"-->
+            <!--Quando queremos que o usuário vá para a caixinha de texto do formulário quando clicado na label ou legenda usamos a tag id e colocamos um nome para ela, assim, basta chamala pela tag for no campo label. é muito interessante usar, pois quando uma pessoa acessa por telas pequenas, facila com que ela clique e chegue na cx de tx ID é um idenficador unico de cada campo-->
+            
+            <!--CAMPO INPUT DO TYPE TEXT-->
+            <input id="campo_nome" type="text" placeholder="Digite seu nome aqui"><!--uma entrada, enviar um dado de entrada, e existem vários tipos. O tipo "text" é um dos mais comuns, so para digitar um texto.
+            Podemos colocar também o placeholder, que é aquela marca d'agua que fica aparecendo dentro da caixinha dos formlários-->
+
+            <br><br>
+            
+            <!--LEGENDA PARA NOME-->
+            <label for="campo_sobrenome">Sobrenome: </label>
+            
+            <!--CAMPO INPUT DO TYPE TEXT-->
+            <input type="text" placeholder="Digite seu sobrenome aqui" id="campo_sobrenome">
+
+            <br><br>
+           
+            <!--LEGENDA PARA E-MAIL-->
+            <label for="campo_e-mail">E-mail: </label>
+           
+            <!--CAMPO INPUT DO TYPE E-MAIL-->
+            <input type="email" placeholder="Digite sua e-mail aqui" id="campo_e-mail"><!--usamos o tipo email para colocar o campo email, pq ele já vem com  uma regra padrão que deve ser pelo menor 1 @ e 1 ponto-->
+
+            <br><br>
+           
+            <!--LEGENDA PARA SENHA-->
+            <label for="campo_senha">Senha: </label>
+            
+            <!--CAMPO INPUT DO TYPE PASSWORD-->
+            <input type="password" placeholder="Digite sua senha aqui" id="campo_senha" required><!--usamos o tipo password para colocar o campo senha, assim, quando a senha for digitada, não será possivel visualizala, fica aparecendo bolinhas--> <!--quando colocamos o atributo required, sempre no campo input, estamos dizendo que esse campo é obrigatório, ou seja, a pessoa não poderá enviar o formulário se algum dos campos estiverem em branco-->
+
+            <br><br>
+
+            <!--COMPO INPUT DO TYPE SUBMIT-->
+            <input type="submit" value="Enviar Formulário"><!--usamos o tipo submit para colocar o um botão, como por exemplo de enviar p formulário-->
+
+            <br><br>
+
+            <h2>Animal de Estimação</h2>
+
+            <input type="radio" id="dog" name="animal" value="Cachorro"><!--Usamos o tipo radio quando queremos uma lista clicavel, ex, qual seu animal de estimação e colocamos a opções abaixo, muito parececido com provas online de multipla escolha. E o tipo radio é a opção que vc só pode escolher uma das opções, não pode escolher mais de uma.  A tag name, sempre será igual para todos os type radio.O value é a informação que será mandada para o formulário-->
+            <label for="dog">Cachorro</label><!--usamos a opção lábel para que aparecça a escrita para que a pessoa saiba no que está clicando, e é legal colocar um ID para que se a pessoa clilcar na legenda(label), ela já selecione a opção-->
+
+            <br><br>
+
+            <input type="radio" id="cat" name="animal" value="Gato">
+            <label for="cat">Gato</label>
+
+            <br><br>
+
+            <input type="radio" id="mause" name="animal" value="Rato">
+            <label for="mause">Rato</label>
+
+            <br><br>
+
+            <input type="radio" id="birdie" name="animal" value="Passarinho">
+            <label for="birdie">Passarinho</label><br><br>
+
+            <h2>O que você tem em casa?</h2>
+
+            <input id="item1" type="checkbox" name="item1" value="TV"><!--O type checkbox é usado quando queremos marcar mais de uma opção e ao contrário do radio, multipla escolha, o name é diferente para cada item. Usamos essa opção nos sites quando pedimos se a pessoal leu e aceita os termos listados acima, se ela quer receber promoções po e-mail ou whtasapp-->
+            <label for="item1">TV</label><br><br>
+
+            <input id="item2" type="checkbox" name="item2" value="Geladeira">
+            <label for="item2">Geladeira</label><br><br>
+
+            <input id="item3" type="checkbox" name="item3" value="Computador">
+            <label for="item3">Computador</label><br><br>
+
+            <input id="item4" type="checkbox" name="item4" value="Cama">
+            <label for="item4">Cama</label><br><br>
+
+            <h2>Select - Escolha uma cor</h2>
+
+            <select name="Cores" id=""><!--No selec, ele abre uma caixinha de multipla escolha, como quando marcamos o sexo em formulários, ou como quando queremos escolher uma tamanho de roupa em um site-->
+                <!--Select e option tem abertura e fechamento-->
+                <option selected disabled value="">Selecione uma cor</option><!--Quando queremso colocar um textinho na opção selec, usamos uma option com valeu vazia e colocamos a opção selected que  fará com que o texto apareça na caixinha em branco e desabled que é desabilitado, assim, as pessoas não poderao clicar nesse texto como uma opção de marcação-->
+                <option value="Vermelho">Vermelho</option>
+                <option value="Verde">Verde</option>
+                <option value="Amarelo">Amarelo</option>
+                <option value="Amarelo">Amarelo</option>
+                <option value="Roxo">Roxo</option>
+            </select>
+
+            <br><br>
+
+            <h2>Digite sua mensagem</h2>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite aqui sua mensagem"></textarea><!--rows= é o número de linhas; cols= propriedade colulas, adicionar + colunas; usamos a tag textarea quando queremos digitar uma texto maior, não só uma informação-->
+
+            <br><br>
+
+            <button>Clique aqui</button><!--para clicar um botão aleátorio, não precisa estar necessáriamente dentro do fomulário. Quando ele está dentro do formulário, a tendencia é que ele submeta o formulário, ou seja, envie o formulário-->
+
+
+            <br><br><br>
+        </form>
+
+        <h2>Audio</h2>
+        <audio controls controlList="nodownload"> <!--Tag de abertuta audio. controls é para que apareça o icone de audio na tela. ----- o atributo controlList impede com que o usuário faça o download do audio-->
+            <source src="audio/aleatorio.ogg" type="audio/ogg"> <!-- podemos colocar links absolutos tambpem no src, tanto de rádios como de outros sites--> <!--usamos a tag source para dizer qual é o arquivo. usamos  o atribto src para colocar o camninho e o atributo type para dizer qual o tipo do do arquivo. o Tipo audio/mpeg é para audio MP3 e o tipo audio/ogg para arquivos ogg ou audio/wav -->
+        </audio>
+        <br><br><br>
+</body> 
+
+<html>
+      

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+
+    <h1>Áudio</h1>
+
+    <p>A tag de áudio é usada em sites cujo o objetivo é tocar uma música ou até mesmo ler um texto que foi escrito. Podemos utilizar um áudio salvo em nosso computador, ou ainda, um link externo. Abaixo tenhos listadas as principais tags e seu atributos:</p>
+
+    <p>A tag "audio" - Define o audio;</p>
+    <p>A tag "source" - Define o caminho que terá o audio;</p>
+    <p>O atributo "src" - Define o link/caminho;</p>
+    <p>O atributo "type" - Define o tipo de arquivo de audio;</p>
+    <p>O atributo "controls" - Apresenta na tela o arquivo de audio;</p>
+    <p>O atributo "controlList" - Esconde o botão de download que já fica por padrão no google;</p>
+
+    <h2>Arquivo de áudio salvo no computador</h2>
+
+    <img src="img/audio-computador.jpeg" alt=""><br>
+
+    <audio controls controlList="nodownload">
+        <source src="audio/aleatorio.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>Arquivo de áudio com link externo</h2>
+
+    <img src="img/audio-linkexterno.jpeg" alt=""><br>
+
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>Note que no primeiro código, do áudio salvo no computador, eu coloquei o atributo controlList e no segundo não. Ao clicar nas 3 bolinhas na lateral do arquivo de áudio, é possível observar que no primeiro, não aparece a opção de download e no segundo sim.</p>
+
+    <a href="index.html"><button>Voltar a página inicial</button></a>
+
+</body>
+</html>
